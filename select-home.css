@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@500;600&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0 ;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: azure;
+    
+}
+header{
+    width: 100%;
+    margin-bottom: 30px;
+}
+header h1{
+    color:lightcoral;
+    font-size: 2.8rem;
+    font-weight: 600;
+    padding: 10px;
+   
+    
+    
+}
+.container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 340px;
+    background-color: white;
+    border-radius: 20px;
+    transition: 0.5s;
+    box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+    margin-bottom: 80px;
+}
+.card:hover{
+    height: 400px;
+}
+.card .img-box{
+    position: absolute;
+    top: 20px;
+    width: 185px;
+    height: 220px;
+    background-color: wheat;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.card:hover .img-box{
+    top: -100px;
+    scale:0.75;
+    box-shadow: 0 15px 45px rgba(0,0,0,0.2);
+    
+}
+.card .img-box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card .content{
+    position: absolute;
+    top:252px;
+    width: 100%;
+    height: 70px;
+    padding: 0 30px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.card:hover .content{
+    top: 130px;
+    height: 270px;
+}
+
+.card .content h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+}
+.card .content p{
+    text-align:  center;
+    font-size: 1.1rem;
+    color: darkblue;
+    word-break: break-word;
+    margin-top: 12px;
+}
+
+
+.card .content a{
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    background-color: lightgreen;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.card .content a:hover{
+    opacity: 0.8;
+    scale:0.75;
+}
+

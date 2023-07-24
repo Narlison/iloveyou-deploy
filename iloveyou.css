@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+body{
+    background-color: #111226;
+}
+.conteudos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.conteudos img{
+    width: 150px;
+  
+}
+.conteudos h2{
+    color: #ffffff;
+    margin-top: 15px;
+}
+.conteudos p{
+    color: white;
+    font-weight: 300;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+form input{
+    height: 45px;
+    margin-top: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: grey;
+    padding: 10px;
+    color: aliceblue;
+}
+form input::placeholder{
+    color: aliceblue;
+    
+}
+form button{
+    margin-top: 15px;
+    border:none;
+    
+}
+.shadow__btn {
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transition-property: -webkit-box-shadow;
+  transition-property: -webkit-box-shadow;
+  transition-property: box-shadow;
+  transition-property: box-shadow, -webkit-box-shadow;
+}
+
+.shadow__btn {
+  background: rgb(131, 18, 252);
+  -webkit-box-shadow: 0 0 25px rgb(131, 18, 252);
+          box-shadow: 0 0 25px rgb(131, 18, 252);
+}
+
+.shadow__btn:hover {
+  -webkit-box-shadow: 0 0 5px rgb(131, 18, 252),
+              0 0 25px rgb(131, 18, 252),
+              0 0 50px rgb(131, 18, 252),
+              0 0 100px rgb(131, 18, 252);
+          box-shadow: 0 0 5px rgb(131, 18, 252),
+              0 0 25px rgb(131, 18, 252),
+              0 0 50px rgb(131, 18, 252),
+              0 0 100px rgb(131, 18, 252);
+}

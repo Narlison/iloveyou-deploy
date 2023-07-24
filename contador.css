@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@500;600&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #f0f8ff;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f8ff;
+    padding: 10px;
+}
+header{
+    width: 100%;
+    display: flex;
+    margin-left: 10px;
+}
+header a{
+    width:80%;
+    height: 45px;
+    background-color: #FA8072;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 30px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+
+
+
+
+nav{
+    width: 100%;
+    height: 100%;
+    background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+.card{
+    background-color:#8a2be2;
+    color: #FFFAF0;
+    border-radius: 20px;
+    width: 90%;
+    height: 110px;
+    border: none;
+    padding: 16px;
+    display: flex;
+    transition: 0.5s;
+    flex-direction: row;
+    margin-top: 30px;
+    
+}
+
+
+.card h1{
+    font-size: 1.7rem;
+    text-align: center;
+}
+.card p{
+    text-align: center;
+}
+.card:hover{
+    scale:1.1;
+}
+.textos{
+    width: 100%;
+}
+.icone{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.icone h1{
+    font-size: 1.9rem;
+    animation: heartbeat 2s infinite;
+}
+@keyframes heartbeat {
+    0%{
+        transform:scale(1);
+    }
+    50%{
+        transform: scale(1.6);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.card-tempo{
+    background-color: #8a2be2;
+    color: #FFFAF0;
+    border-radius: 20px;
+    width: 90%;
+    height: 110px;
+    border: none;
+    padding: 16px;
+    display: flex;
+    transition: 0.5s;
+    margin-top: 30px;
+    
+}
+
+
+.card-tempo h1{
+    font-size: 1.7rem;
+    word-spacing:6px ;
+}
+.card-tempo:hover{
+    scale:1.1;
+}
+.textos-tempo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: #faebd7;
+    border-radius: 20px;
+    text-align: center;
+    width: 90%;
+    padding: 10px;
+    margin-top: 20px;
+    color: #000000;
+    height: 260px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+container p{
+    font-weight: 500;
+}
+.container:hover{
+    scale:1.1;
+}
