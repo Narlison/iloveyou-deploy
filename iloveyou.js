@@ -5,6 +5,7 @@ document.getElementById("login-btn").addEventListener("click", function (event) 
 
   if (username === "Sabrina" && password === "01062023") {
     // Redirecionar para a próxima tela
+    
     window.location.href = "2-home.html";
   } else {
     // Exibir mensagem de erro

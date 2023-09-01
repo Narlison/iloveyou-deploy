@@ -1,4 +1,6 @@
-var dataInicio = new Date('2023-06-01')
+var dataInicio = new Date('2023-06-01T00:00:00-03:00');
+
+
 
 function atualizarContador(){
     var dataAtual = new Date()
